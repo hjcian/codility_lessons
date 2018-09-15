@@ -1,6 +1,5 @@
 def solution(A):
     # write your code in Python 3.6
-    # https://asghonim.wordpress.com/2015/09/03/the-sum-distance-problem/
     # N = len(A)
     # maximum = A[0] + A[0] + (0 - 0)
     # for i in range(N):
@@ -17,6 +16,7 @@ def solution(A):
             maximum = A[j] - j
             maxJ = j
     maxI = 0
+    
     maximum = A[0]
     for i in range(N):
         if  A[i] + i > maximum:
@@ -24,6 +24,7 @@ def solution(A):
             maxI = i
     print(maxI, maxJ)
     ret = A[maxI] + maxI + A[maxJ] - maxJ
+    
     return ret
 
 
