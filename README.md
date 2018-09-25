@@ -1,4 +1,7 @@
-# codility_practice
+# codility
 - this repo. contains all learning notes about what I done on codility problems
-- practices裝練習的習題
-- tests裝測驗的題目
+- /lessons: 放Lessons的習題
+- /tests: 放面試遇到的題目
+- /challenges: 放Challenges解過的題目
+
+
